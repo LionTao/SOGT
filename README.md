@@ -1,2 +1,2 @@
 # SOGT
-##Files for the SOGT Project by SUMSC
+## Files for the SOGT Project by SUMSC
