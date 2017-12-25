@@ -14,7 +14,7 @@
 ## 第二步 使用脚本程序管理SOGT镜像
 #### 1.使用wget下载配置脚本
 ```shell
-wget https://github.com/LionTao/SOGT/blob/master/sogt.sh
+wget https://github.com/LionTao/SOGT/raw/master/sogt.sh
 ```
 
 #### 2.使用bash脚本控制容器
@@ -58,6 +58,6 @@ Ctrl+Q
 
 ****我们在Ubuntu系统测试通过，其他系统不能保证一定能正确运行****
 
-联系我们 www.sumsc.xin  
-作者： LionTao  
+联系我们 www.sumsc.xin
+作者： LionTao
 Email：1024503653@qq.com
