@@ -19,13 +19,14 @@ wget https://github.com/LionTao/SOGT/raw/master/sogt.sh
 
 #### 2.使用bash脚本控制容器
 ##### a. 启动脚本
-方法一 给予脚本文件执行权限
+方法一 给予脚本文件执行权限(建议使用这种)
 ```shell
 (sudo) chmod +x  {path to sogt.sh}/sogt.sh
+sogt.sh
 ```
 方法二 使用基本命令
 ```shell
-sh sogt.sh
+bash sogt.sh
 ```
 
 ##### b. 运行脚本并开始配置
