@@ -26,7 +26,7 @@ sogt.sh
 ```
 方法二 使用基本命令
 ```shell
-bash sogt.sh
+(sudo) bash sogt.sh
 ```
 
 ##### b. 运行脚本并开始配置
