@@ -58,6 +58,6 @@ Ctrl+Q
 
 ****我们在Ubuntu系统测试通过，其他系统不能保证一定能正确运行****
 
-联系我们 www.sumsc.xin
+联系我们 www.sumsc.xin  
 作者： LionTao  
 Email：1024503653@qq.com
