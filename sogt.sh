@@ -17,10 +17,10 @@ do
     done
 
     case ${var} in
-        "初始化本地镜像(pull)"）
+        "初始化本地镜像(pull)")
         docker build -t sumsc/sogt github.com/LionTao/SOGT
         ;;
-        "保存镜像"）
+        "保存镜像")
         docker commit SOGT sumsc/sogt
         ;;
         "(选这个开始配置)开始运行SOGT容器并进入Docker容器环境(run -it)")
