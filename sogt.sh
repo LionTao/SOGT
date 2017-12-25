@@ -23,7 +23,7 @@ do
         "保存镜像"）
         docker commit SOGT sumsc/sogt
         ;;
-        "(第一次启动前请选择这个)开始运行SOGT容器并进入Docker容器环境(run -it)")
+        "(选这个开始配置)开始运行SOGT容器并进入Docker容器环境(run -it)")
         docker run -it -p 80:80 -p 8080:8080 -p 2002:22 -p 443:443 --name SOGT sumsc/sogt
         ;;
         "开始运行并让SOGT容器在后台运行(run -itd)")
