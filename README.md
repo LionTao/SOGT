@@ -1,7 +1,7 @@
 # SOGT Project with Docker
 ###### Still in Beta tset (image version:b0.3)
 ###  本文档旨在引导您安装并初步配置SOGT的Docker image
-
+# 2017.12.26 23:16 请一定要在初次进入时删除  /var/www/SOGT/SOMessage 目录下的admin.txt，否则会导致管理员账户无法更改密码！ 
 ## 第一步 配置环境
 #### 1. 安装Docker
 请根据您的系统安装合适的Docker应用  
