@@ -1,5 +1,5 @@
 # SOGT Project with Docker
-###### Still in Beta tset
+###### Still in Beta tset (image version:b0.3)
 ###  本文档旨在引导您安装并初步配置SOGT的Docker image
 
 ## 第一步 配置环境
