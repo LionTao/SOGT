@@ -43,7 +43,7 @@ root@xxxxxx：
 
 **特别注意：**
 配置完成后请使用：
-```
+```shell
 Ctrl+Q+P 
 Ctrl+Q
 ```
