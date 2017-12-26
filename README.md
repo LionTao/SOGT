@@ -1,5 +1,5 @@
 # SOGT Project with Docker
-
+###### Still in Beta tset
 ###  本文档旨在引导您安装并初步配置SOGT的Docker image
 
 ## 第一步 配置环境
@@ -22,12 +22,13 @@ wget https://github.com/LionTao/SOGT/raw/master/sogt.sh
 方法一 给予脚本文件执行权限(建议使用这种)
 ```shell
 (sudo) chmod +x  {path to sogt.sh}/sogt.sh
-sogt.sh
+(sudo) ./sogt.sh
 ```
 方法二 使用基本命令
 ```shell
 (sudo) bash sogt.sh
 ```
+注意，在Ubuntu下不要使用sh运行此脚本，会报错
 
 ##### b. 运行脚本并开始配置
 注意：   
