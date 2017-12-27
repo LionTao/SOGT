@@ -1,4 +1,4 @@
- FROM registry.cn-hangzhou.aliyuncs.com/sumsc/sogt:b0.5
+ FROM registry.cn-hangzhou.aliyuncs.com/sumsc/sogt:b0.6
  
  MAINTAINER LionTao "1024503653@qq.com"
  
