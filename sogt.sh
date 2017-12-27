@@ -9,7 +9,7 @@ do
     select var in "初始化本地镜像(pull)" "(选这个开始配置)开始运行SOGT容器并进入Docker容器环境(run -it)" "开始运行并让SOGT容器在后台运行(run -itd)" "保存镜像" "查看正在后台运行的容器(ps)" "查看停止的容器(ps -a)" "停止SOGT容器(stop)" "重新启动SOGT容器(restart)" "进入已经启动并在后台运行的SOGT容器(attach)" "将SOGT容器删除(rm)" "退出此脚本" ;
     do  
         if ! echo ${num[@]} | grep -q $REPLY; then  
-            echo "please enter [1-9]."  
+            echo "please enter [1-11]."  
             continue  
         fi  
         echo "你选择了： ${var}"  
