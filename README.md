@@ -1,5 +1,5 @@
 # SOGT Project with Docker
-###### Still in Beta tset (image version:b0.3)
+###### Still in Beta tset (image version:b0.4)
 ###  本文档旨在引导您安装并初步配置SOGT的Docker image  
 
 # 2017.12.27 （b0.4）修复了管理员无法更改密码的问题  
