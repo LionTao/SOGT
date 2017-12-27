@@ -44,7 +44,7 @@ wget https://github.com/LionTao/SOGT/raw/master/sogt.sh
 root@xxxxxx：
 ```
 时表明您成功进入了容器中。
-此时，您可以根据前端文档:[]: 
+此时，您可以根据前端文档:https://github.com/LionTao/SOGT/blob/master/Frontend.md
 来个性化配置您的页面。
 
 **特别注意：**
