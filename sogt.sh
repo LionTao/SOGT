@@ -24,10 +24,16 @@ do
         docker commit SOGT sumsc/sogt
         ;;
         "(选这个开始配置)开始运行SOGT容器并进入Docker容器环境(run -it)")
-        docker run -it -p 80:80 -p 8080:8080 -p 2002:22 -p 443:443 --name SOGT sumsc/sogt
+        echo "Please input SUMSC SOLogin Server IP:"
+        read SUMSC_URL
+        echo "Your Input is:$SUMSC_URL"
+        docker run -it -p 80:80 -p 8080:8080 -p 2002:22 -p 443:443 -e SUMSC_URL=$SUMAC_URL --name SOGT sumsc/sogt
         ;;
         "开始运行并让SOGT容器在后台运行(run -itd)")
-        docker run -itd -p 80:80 -p 8080:8080 -p 2002:22 -p 443:443 --name SOGT sumsc/sogt
+        echo "Please input SUMSC SOLogin Server IP:"
+        read SUMSC_URL
+        echo "Your Input is:$SUMSC_URL"
+        docker run -itd -p 80:80 -p 8080:8080 -p 2002:22 -p 443:443 -e SUMSC_URL=$SUMAC_URL --name SOGT sumsc/sogt
         ;;
         "查看正在后台运行的容器(ps)")
         docker ps
