@@ -1,5 +1,5 @@
 # SOGT Project with Docker
-###### Still in Beta tset (image version:b0.5)
+###### Still in Beta test (image version:b0.5)
 ###  本文档旨在引导您安装并初步配置SOGT的Docker image  
 #### 如果您不愿意使用Docker或在配置中遇到问题欢迎根据文档最后的联系方式联系我们 
 ###注意！当提示让您输入SUMSC的IP地址时请以http://开头
